@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "@/components/Navbar";
 
 const Calculator = () => {
-    return (<div>
-        Home page
-    </div> );
+    return (
+        <div>
+            <Navbar></Navbar>
+            calculator
+        </div>
+    );
 }
  
 export default Calculator;

@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "@/components/Navbar";
 
 const ViewConjunction = () => {
     return ( 
         <div>
-            conjunction View page
+            <Navbar></Navbar>
+            conjunction View page / Tutorial
         </div>
      );
 }
